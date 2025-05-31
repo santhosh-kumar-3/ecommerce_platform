@@ -20,7 +20,7 @@ export default function TabLayout() {
           ),
         }}
       />
-      {/* <Tabs.Screen
+      <Tabs.Screen
         name="cart"
         options={{
           title: "Cart",
@@ -28,7 +28,7 @@ export default function TabLayout() {
             <Ionicons name="cart-outline" size={size} color={color} />
           ),
         }}
-      /> */}
+      />
       <Tabs.Screen
         name="profile"
         options={{
@@ -38,8 +38,8 @@ export default function TabLayout() {
           ),
         }}
       />
-      {/* <Tabs.Screen name="category/[id]" options={{ href: null }} />
-      <Tabs.Screen name="product/[id]" options={{ href: null }} /> */}
+      <Tabs.Screen name="category/[id]" options={{ href: null }} />
+      <Tabs.Screen name="product/[id]" options={{ href: null }} />
     </Tabs>
   );
 }

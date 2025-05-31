@@ -1,6 +1,7 @@
 import { Slot } from 'expo-router';
 import { Provider } from 'react-redux';
 import { store } from '../redux/store';
+import { StatusBar } from 'expo-status-bar';
 import { useFonts } from "expo-font";
 import "../global.css"; 
 import { SafeAreaView } from 'react-native-safe-area-context';
